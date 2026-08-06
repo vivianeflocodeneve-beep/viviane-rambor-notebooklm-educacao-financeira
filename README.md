@@ -1,29 +1,29 @@
 # 📚 Explorando o NotebookLM com Inteligência Artificial Generativa
 
-> Projeto desenvolvido como parte do desafio da **Digital Innovation One (DIO)** para explorar o NotebookLM como ferramenta de aprendizagem ativa, organização do conhecimento e apoio à pesquisa baseada em fontes confiáveis.
+> Projeto desenvolvido como parte do desafio da **Digital Innovation One (DIO)** para explorar o **NotebookLM**, ferramenta de Inteligência Artificial Generativa do Google voltada para pesquisa, organização do conhecimento e aprendizagem ativa baseada em fontes confiáveis.
 
 ---
 
 # 📖 Contexto
 
-A Inteligência Artificial Generativa vem transformando a forma como pesquisamos, organizamos informações e construímos conhecimento. Entre as ferramentas disponíveis, o **NotebookLM**, desenvolvido pelo Google, destaca-se por permitir a criação de cadernos inteligentes baseados em documentos selecionados pelo próprio usuário.
+A Inteligência Artificial Generativa vem transformando significativamente a forma como pesquisamos, organizamos informações e construímos conhecimento. Entre as ferramentas disponíveis, o **NotebookLM**, desenvolvido pelo Google, destaca-se por permitir a criação de cadernos inteligentes baseados em documentos fornecidos pelo próprio usuário.
 
-Diferentemente de outros assistentes de IA, o NotebookLM responde às perguntas utilizando exclusivamente as fontes carregadas pelo usuário, tornando suas respostas mais confiáveis, rastreáveis e adequadas para estudos, pesquisas e análises técnicas.
+Diferentemente de outros assistentes de IA, o NotebookLM fundamenta suas respostas exclusivamente nas fontes carregadas, proporcionando maior confiabilidade, rastreabilidade e transparência durante o processo de estudo.
 
-Neste projeto foi criado um caderno temático sobre **Fundamentos da Educação Financeira**, reunindo conteúdos produzidos por instituições públicas e reconhecidas nacionalmente.
+Neste projeto foi desenvolvido um **Caderno Temático** sobre **Fundamentos da Educação Financeira**, utilizando documentos de instituições oficiais e reconhecidas nacionalmente.
 
 ---
 
 # 🎯 Objetivos
 
-Este projeto teve como objetivos:
+Os principais objetivos deste projeto foram:
 
-- compreender o funcionamento do NotebookLM;
-- experimentar a utilização da IA como ferramenta de aprendizagem ativa;
-- desenvolver habilidades de curadoria de informações;
-- organizar diferentes fontes em um único ambiente;
-- testar estratégias de Engenharia de Prompts;
-- produzir um miniguia de estudos reutilizável.
+- Explorar os recursos do NotebookLM;
+- Compreender seu funcionamento como ferramenta de aprendizagem ativa;
+- Desenvolver habilidades de curadoria de informações;
+- Testar diferentes estratégias de Engenharia de Prompts;
+- Organizar conteúdos provenientes de diversas fontes;
+- Produzir um miniguia de estudos reutilizável.
 
 ---
 
@@ -31,172 +31,171 @@ Este projeto teve como objetivos:
 
 ## Fundamentos da Educação Financeira
 
-O tema foi escolhido por sua relevância para a tomada de decisões financeiras conscientes e por possuir amplo material disponibilizado por órgãos oficiais.
-
-Os estudos contemplaram:
+O notebook foi desenvolvido para reunir conhecimentos introdutórios relacionados a:
 
 - Educação Financeira;
 - Planejamento Financeiro;
-- Investimentos;
+- Organização das Finanças Pessoais;
 - Juros Compostos;
-- Renda Fixa;
-- Organização Financeira;
+- Investimentos;
+- Tesouro Direto;
+- Diversificação;
 - Formação de Patrimônio.
 
 ---
 
 # 📄 Curadoria de Fontes
 
-Foram utilizadas exclusivamente fontes abertas e de alta credibilidade.
+Foram utilizadas exclusivamente fontes públicas, oficiais e confiáveis.
 
 | Instituição | Link |
 |-------------|------|
 | Banco Central do Brasil | https://www.bcb.gov.br/cidadaniafinanceira |
-| Portal do Investidor (CVM) | https://www.gov.br/investidor |
+| Comissão de Valores Mobiliários (CVM) | https://www.gov.br/investidor |
 | Tesouro Direto | https://www.tesourodireto.com.br |
 | ANBIMA Educação | https://edu.anbima.com.br |
 | Portal Gov.br | https://www.gov.br |
 
-Todas essas fontes foram adicionadas ao NotebookLM na forma de páginas oficiais e documentos em PDF.
+Todas essas fontes foram adicionadas ao NotebookLM em formato PDF e páginas oficiais.
 
 ---
 
-# 🛠 Construção do Notebook
+# 🚀 Construção do Notebook
 
-O desenvolvimento ocorreu nas seguintes etapas:
+O notebook foi criado seguindo as etapas abaixo:
 
-1. Criação de um notebook no NotebookLM;
-2. Definição do tema;
-3. Inclusão das fontes;
-4. Organização dos documentos;
-5. Validação do carregamento;
-6. Realização das consultas utilizando prompts específicos.
+1. Acesso ao NotebookLM utilizando uma conta Google;
+2. Criação de um novo notebook temático;
+3. Definição do tema **Fundamentos da Educação Financeira**;
+4. Inclusão das fontes oficiais;
+5. Organização dos documentos;
+6. Validação das fontes carregadas;
+7. Realização das consultas utilizando prompts específicos.
 
 ---
 
 # 💬 Engenharia de Prompts
 
-Durante o projeto foram testados diversos formatos de prompts.
+Durante o projeto foram realizados diversos testes para avaliar o comportamento do NotebookLM.
 
-## Resumo
+## Prompt 1
 
-> Faça um resumo dos principais conceitos presentes nas fontes.
+> Faça um resumo dos principais conceitos de Educação Financeira presentes nas fontes.
 
----
-
-## Comparação
-
-> Compare as orientações do Banco Central e da CVM sobre Educação Financeira.
+**Objetivo:** Obter uma visão geral do conteúdo estudado.
 
 ---
 
-## Glossário
+## Prompt 2
 
-> Crie um glossário contendo os principais termos encontrados nas fontes.
+> Compare as orientações do Banco Central com as recomendações da CVM.
 
----
-
-## Questões para revisão
-
-> Gere dez perguntas para revisar os conceitos estudados.
+**Objetivo:** Identificar semelhanças e diferenças entre as instituições.
 
 ---
 
-## Plano de estudos
+## Prompt 3
 
-> Monte um cronograma de estudos utilizando apenas os documentos carregados.
+> Crie um glossário contendo os principais conceitos encontrados nas fontes.
 
----
-
-## Autoavaliação
-
-> Elabore perguntas de múltipla escolha para verificar meu aprendizado.
+**Objetivo:** Construir um material de consulta rápida.
 
 ---
 
-## Síntese
+## Prompt 4
 
-> Organize todos os conceitos em uma estrutura hierárquica.
+> Gere dez perguntas para revisão do conteúdo estudado.
+
+**Objetivo:** Criar um material para autoavaliação.
 
 ---
 
-# 🔍 Resultados Obtidos
+## Prompt 5
 
-O NotebookLM conseguiu:
+> Monte um cronograma de estudos utilizando apenas as fontes carregadas.
 
-- produzir resumos automáticos;
-- comparar informações entre documentos;
-- criar glossários;
-- gerar perguntas para revisão;
-- estruturar planos de estudo;
-- organizar conceitos em listas;
-- responder utilizando apenas as fontes selecionadas.
+**Objetivo:** Organizar uma rotina de estudos.
+
+---
+
+## Prompt 6
+
+> Explique juros compostos como se estivesse ensinando um estudante iniciante.
+
+**Objetivo:** Avaliar a capacidade da IA de adaptar a linguagem ao público.
+
+---
+
+# 📊 Resultados Obtidos
+
+Durante os testes o NotebookLM conseguiu:
+
+- Gerar resumos automáticos;
+- Comparar documentos;
+- Responder perguntas contextualizadas;
+- Criar glossários;
+- Elaborar cronogramas de estudo;
+- Produzir materiais para revisão;
+- Organizar listas de conceitos;
+- Responder utilizando apenas as fontes carregadas.
 
 ---
 
 # ⚠️ Cicatrizes (Troubleshooting)
 
-Durante o desenvolvimento foram identificados alguns desafios.
+Durante o desenvolvimento foram observados alguns desafios.
 
 ## Prompt muito genérico
 
-Quando a pergunta era muito ampla, as respostas se tornavam superficiais.
+Perguntas muito amplas produziram respostas superficiais.
 
 ### Exemplo
 
 ❌ Explique Educação Financeira.
 
-Melhor resultado:
+### Melhor abordagem
 
-✅ Explique os conceitos de Educação Financeira apresentados pelo Banco Central e compare com as recomendações da CVM.
+✅ Explique os conceitos de Educação Financeira apresentados pelo Banco Central e compare-os com as recomendações da CVM.
 
 ---
 
 ## Fontes muito extensas
 
-Documentos muito grandes dificultaram respostas objetivas.
+Documentos grandes produziram respostas excessivamente longas.
 
-A solução foi dividir os assuntos por tema.
+**Solução:** Dividir os estudos em assuntos específicos.
 
 ---
 
-## Perguntas muito abertas
+## Falta de contexto
 
-Solicitações muito amplas geravam excesso de informações.
+Prompts sem contexto produziram respostas menos objetivas.
 
-Melhor prática:
+**Melhor prática:**
 
-- definir contexto;
-- indicar objetivo;
-- especificar quais documentos deveriam ser considerados.
+- Informar o objetivo;
+- Definir o contexto;
+- Indicar quais documentos devem ser utilizados.
 
 ---
 
 # 📖 Miniguia de Estudos
 
-## O que é Educação Financeira?
+## Educação Financeira
 
-É o conjunto de conhecimentos que auxilia indivíduos na administração consciente de seus recursos financeiros, permitindo decisões mais seguras sobre consumo, poupança e investimentos.
-
----
+Conjunto de conhecimentos que auxilia indivíduos na administração consciente dos recursos financeiros.
 
 ## Planejamento Financeiro
 
-Consiste na definição de objetivos financeiros e na organização dos recursos necessários para alcançá-los.
-
----
+Processo de definição de objetivos financeiros e organização dos recursos necessários para alcançá-los.
 
 ## Investimentos
 
-Aplicações realizadas com o objetivo de aumentar o patrimônio ao longo do tempo.
-
----
+Aplicação de recursos visando crescimento patrimonial e geração de renda.
 
 ## Juros Compostos
 
 Sistema no qual os juros incidem sobre o capital inicial e também sobre os juros acumulados.
-
----
 
 ## Diversificação
 
@@ -207,15 +206,15 @@ Estratégia utilizada para reduzir riscos distribuindo investimentos entre difer
 # 📚 Glossário
 
 | Conceito | Definição |
-|----------|-----------|
+|-----------|-----------|
 | Patrimônio | Conjunto de bens e direitos |
-| Liquidez | Facilidade de transformar um ativo em dinheiro |
-| Rentabilidade | Retorno obtido em um investimento |
-| Risco | Possibilidade de perdas |
-| Inflação | Aumento generalizado dos preços |
-| Juros Compostos | Juros sobre juros |
-| Diversificação | Distribuição dos investimentos |
-| Reserva de Emergência | Recursos destinados a imprevistos |
+| Liquidez | Facilidade de converter um ativo em dinheiro |
+| Rentabilidade | Retorno obtido sobre um investimento |
+| Risco | Possibilidade de perdas financeiras |
+| Inflação | Aumento contínuo dos preços |
+| Juros Compostos | Juros calculados sobre o capital acrescido dos juros anteriores |
+| Diversificação | Distribuição dos investimentos para reduzir riscos |
+| Reserva de Emergência | Recursos destinados a imprevistos financeiros |
 
 ---
 
@@ -234,62 +233,74 @@ Monte um plano de estudos.
 
 Liste os principais conceitos.
 
-Gere questões para revisão.
+Gere perguntas para revisão.
 
 Crie um mapa mental.
 
 Organize os tópicos por importância.
 
-Resuma em cinco pontos principais.
+Resuma o conteúdo em cinco pontos principais.
 ```
-
----
-
-# 💡 Principais Aprendizados
-
-Durante o desenvolvimento do projeto foi possível compreender que:
-
-- a qualidade das respostas depende da qualidade das fontes;
-- prompts específicos produzem resultados mais completos;
-- o NotebookLM é excelente para organizar conhecimento;
-- a IA não substitui a análise crítica do usuário;
-- a curadoria das informações continua sendo essencial.
 
 ---
 
 # 🎥 Materiais Complementares
 
-## NotebookLM
+Além das fontes utilizadas no NotebookLM, os materiais abaixo podem auxiliar no aprofundamento dos estudos.
 
-https://notebooklm.google/
+## 📘 NotebookLM
 
-https://www.youtube.com/results?search_query=NotebookLM
+- https://notebooklm.google/
+- https://support.google.com/notebooklm
 
----
+### Vídeos
 
-## Banco Central
-
-https://www.youtube.com/results?search_query=Banco+Central+Educa%C3%A7%C3%A3o+Financeira
-
----
-
-## Tesouro Direto
-
-https://www.youtube.com/results?search_query=Tesouro+Direto
+- https://www.youtube.com/results?search_query=NotebookLM+tutorial
+- https://www.youtube.com/results?search_query=Google+NotebookLM
 
 ---
 
-## ANBIMA
+## 💰 Educação Financeira
 
-https://www.youtube.com/results?search_query=ANBIMA+Educa%C3%A7%C3%A3o+Financeira
+### Banco Central do Brasil
+
+- https://www.bcb.gov.br/cidadaniafinanceira
+- https://www.youtube.com/@BancoCentraldoBrasil
+
+### Comissão de Valores Mobiliários (CVM)
+
+- https://www.gov.br/investidor
+- https://www.youtube.com/results?search_query=CVM+Educa%C3%A7%C3%A3o+Financeira
+
+### Tesouro Direto
+
+- https://www.tesourodireto.com.br
+- https://www.youtube.com/results?search_query=Tesouro+Direto
+
+### ANBIMA
+
+- https://edu.anbima.com.br
+- https://www.youtube.com/results?search_query=ANBIMA+Educa%C3%A7%C3%A3o+Financeira
+
+---
+
+# 💡 Principais Aprendizados
+
+Durante a realização deste projeto foi possível compreender que:
+
+- A qualidade das respostas depende diretamente da qualidade das fontes utilizadas;
+- Prompts específicos produzem respostas mais completas;
+- O NotebookLM facilita a organização do conhecimento;
+- A Inteligência Artificial potencializa a aprendizagem, mas não substitui a análise crítica do usuário;
+- A curadoria de informações é essencial para obter resultados confiáveis.
 
 ---
 
 # 🏁 Conclusão
 
-A utilização do NotebookLM demonstrou como a Inteligência Artificial pode atuar como uma importante ferramenta de apoio à aprendizagem, permitindo organizar informações provenientes de fontes confiáveis e transformá-las em conhecimento estruturado.
+O desenvolvimento deste projeto demonstrou o potencial do NotebookLM como ferramenta de apoio à aprendizagem ativa. Ao combinar fontes confiáveis com Inteligência Artificial Generativa, foi possível transformar documentos em conhecimento estruturado, facilitando a pesquisa, a revisão e a consolidação dos conteúdos estudados.
 
-Além de facilitar a pesquisa, a ferramenta incentiva o desenvolvimento da curadoria de conteúdo, da engenharia de prompts e do pensamento crítico, competências cada vez mais relevantes para profissionais que utilizam IA em suas atividades.
+Além disso, a experiência evidenciou a importância da curadoria das fontes, da elaboração de prompts estratégicos e da análise crítica das respostas geradas pela IA.
 
 ---
 
@@ -297,7 +308,5 @@ Além de facilitar a pesquisa, a ferramenta incentiva o desenvolvimento da curad
 
 **Viviane de Oliveira Rambor**
 
-Projeto desenvolvido como parte do desafio **Explorando o NotebookLM** da **Digital Innovation One (DIO)**.
-
-- GitHub: https://github.com/vivianeflocodeneve-beep
+Projeto desenvolvido como parte do desafio **Explorando o NotebookLM** da **Digital Innovation One (DIO)**, demonstrando a aplicação da Inteligência Artificial Generativa na aprendizagem ativa, organização do conhecimento e engenharia de prompts utilizando fontes confiáveis.
 
