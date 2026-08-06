@@ -295,7 +295,9 @@ Além de facilitar a pesquisa, a ferramenta incentiva o desenvolvimento da curad
 
 # 👨‍💻 Autor
 
-Projeto desenvolvido para o desafio **Explorando o NotebookLM** da **Digital Innovation One (DIO)**.
+**Viviane de Oliveira Rambor**
 
----
-⭐ Se este projeto foi útil para você, deixe uma estrela no repositório!
+Projeto desenvolvido como parte do desafio **Explorando o NotebookLM** da **Digital Innovation One (DIO)**.
+
+- GitHub: https://github.com/vivianeflocodeneve-beep
+
